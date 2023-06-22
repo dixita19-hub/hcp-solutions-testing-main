@@ -1,0 +1,11 @@
+{
+    "AskAQuestionLocators": {
+        "USAbove": {
+                "ask_question_textarea": "//helix-textarea ~ #question",
+                "submit_button": "//helix-core-button[@id='submit']",
+                "submit_another_question_button": "//helix-core-button[@id='success-button']",
+                "submit_a_topic_button": "//helix-core-button[@href='/suggest-a-topic']//helix-core-content",
+                "submit_a_topic_text_area": "//helix-textarea ~ #message"
+        }
+      }
+}

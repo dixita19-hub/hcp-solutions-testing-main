@@ -1,0 +1,16 @@
+{
+    "capabilities": {
+        "browserstack": "True",
+        "browserName": "Chrome",
+        "browserVersion": "latest",
+        "bstack:options": {
+            "deviceName": "Samsung Galaxy S22 Ultra",
+            "osVersion": "12.0",
+            "realMobile" : "true",
+            "projectName": "Galaxy",
+            "local": true,
+            "debug": true,
+            "timezone": "UTC"
+        }
+    }
+}

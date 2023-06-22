@@ -1,0 +1,9 @@
+{
+    "sample dev site": {
+        "page heading": "//h1",
+        "header navigation": {
+            "home link": "//*[@id='block-system-main-menu']//ul//a[ text()='Home' ]",
+            "megs link": "//*[@id='block-system-main-menu']//ul//a[ text()='MEGS' ]"
+        }
+    }
+}

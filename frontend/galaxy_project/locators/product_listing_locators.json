@@ -1,0 +1,15 @@
+{
+    "ProductListingLocators": {
+        "product_listing_layout": "//extras-product-listing ~ extras-letter-container",
+        "alphabet_glossary": "//extras-alphabet-glossary",
+        "brand_letter": "//extras-alphabet-glossary ~ .extras-alphabet-glossary--letter-wrapper > helix-core-button:nth-child({})",
+        "brand_letter_j_no_page": "//extras-alphabet-glossary",
+        "brand_letters_bar": "//extras-alphabet-glossary ~ .extras-alphabet-glossary--wrapper > helix-core-layout-container > .extras-alphabet-glossary",
+        "product_info_link": "//extras-product-listing ~ div > div > extras-letter-container:nth-child({}) > helix-core-card-group > div:nth-child(1) > extras-product ~ section > article > div.extras-product-main > ul > li > a",
+        "product_listing": "//extras-product-listing ~ extras-letter-container:nth-child({}) ~ article > header > h2",
+        "generic_tab": "//helix-core-tabs/a[@href='/medicine-g']",
+        "hcp_site_link": "//*[@type=\"Brand\"] ~ div.extras-product-container:nth-child({}) > extras-product.hydrated ~ ul > li:nth-child(1) > a",
+        "patient_site_link": "//*[@type=\"Brand\"] ~ div.extras-product-container:nth-child({}) > extras-product.hydrated ~ ul > li:nth-child(2) > a",
+        "prescribing_info_link": "//*[@type=\"Brand\"] ~ div.extras-product-container:nth-child({}) > extras-product.hydrated ~ ul > li:nth-child(3) > a"
+    }
+}

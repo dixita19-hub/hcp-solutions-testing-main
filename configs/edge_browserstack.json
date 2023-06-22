@@ -1,0 +1,19 @@
+{
+    "capabilities": {
+        "browserstack": "True",
+        "browserName": "Edge",
+        "browserVersion": "latest",
+        "acceptSslCerts": true,
+        "bstack:options": {
+            "os": "Windows",
+            "osVersion": "10",
+            "projectName": "GRV-Project",
+            "local": true,
+            "debug": true,
+            "timezone": "UTC",
+            "edge": {
+                "enablePopups": true
+            }
+        }
+    }
+}

@@ -1,0 +1,3 @@
+Parameter: pytest
+Additional Argument: --driver Chrome --driver-path ./binaries/webdriver/chromedriver --capability headless True --variables frontend/grv_project/test_data/i18n.json --variables frontend/grv_project/test_data/variables_us.json --tags="login_functionality_grv" --disable-warnings
+

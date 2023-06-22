@@ -1,0 +1,15 @@
+{
+    "capabilities": {
+        "browserstack": "True",
+        "browserName": "Chrome",
+        "browserVersion": "latest",
+        "bstack:options": {
+            "os": "OS X",
+            "osVersion": "Ventura",
+            "projectName": "GRV-Project",
+            "local": true,
+            "debug": true,
+            "timezone": "UTC"
+        }
+    }
+}

@@ -1,0 +1,97 @@
+name: iOS Safari US
+
+env:
+  TAGS: "usabove"
+  BASE_URL: "https://galaxyqa02-preview.site.pfizer"
+  PROXY_PORT: "9090"
+  BROWSERSTACK_USER: ${{secrets.BROWSERSTACK_API_USERNAME}}
+  BROWSERSTACK_ACCESS_KEY: ${{secrets.BROWSERSTACK_ACCESS_KEY}}
+  AUT1US: ${{ secrets.AUT1US }}
+  AUT2US: ${{ secrets.AUT2US }}
+  AUT1UK: ${{ secrets.AUT1UK }}
+  AUT2UK: ${{ secrets.AUT2UK }}
+  AUT3US: ${{ secrets.AUT3US }}
+  AUT4US: ${{ secrets.AUT4US }}
+  AUTOPASS1: ${{ secrets.AUTOPASS1 }}
+  AUTOPASS2: ${{ secrets.AUTOPASS2 }}
+
+on:
+#    push:
+    workflow_dispatch:
+      inputs:
+        tags:
+          description: 'Gherkin Tags'
+          required: true
+          default: 'usabove'
+        baseurl:
+          description: 'Base URL'
+          required: true
+          default: 'https://galaxyqa02-preview.site.pfizer'
+
+jobs:
+  run-test-with-cloudflare-on-browserstack:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Setup Python
+        uses: actions/setup-python@v2.2.1
+        with:
+          python-version: '3.9'
+
+      - name: Setup and run mitmproxy
+        run: |
+          pip install mitmproxy
+          nohup mitmdump -p $PROXY_PORT -H "/cf-access-client-id/${{ secrets.CF_KEY_ID }}" -H "/cf-access-client-secret/${{ secrets.CF_KEY_SECRET }}" &
+
+      - name: 'BrowserStack Env Setup'  # Invokes the setup-env action
+        uses: browserstack/github-actions/setup-env@master
+        with:
+            username: ${{secrets.BROWSERSTACK_API_USERNAME}}
+            access-key: ${{secrets.BROWSERSTACK_ACCESS_KEY}}
+
+      - name: 'BrowserStack Local Tunnel Setup'  # Invokes the setup-local action
+        uses: browserstack/github-actions/setup-local@master
+        with:
+          local-testing: start
+          local-identifier: random
+          local-args: --force-local --force-proxy --local-proxy-host 127.0.0.1 --local-proxy-port 9090
+
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Setup dependencies
+        run: |
+            sh install.sh
+
+      - name: Run tests
+        run: |
+          if [ "${{ github.event.inputs.tags }}" != "" ]
+          then
+            TAGS="${{ github.event.inputs.tags }}"
+          fi
+
+          if [ "${{ github.event.inputs.baseurl }}" != "" ]
+          then
+            BASE_URL="${{ github.event.inputs.baseurl }}"
+          fi
+
+          source $HOME/.bp-venv/bin/activate
+          python -m pytest -v --driver Remote --selenium-host '${{secrets.BROWSERSTACK_API_USERNAME}}:${{secrets.BROWSERSTACK_ACCESS_KEY}}@hub-cloud.browserstack.com' --variables ./configs/us_ios_safari.json --proxy-url="127.0.0.1:$PROXY_PORT" --tags="$TAGS" --base-url=$BASE_URL --capability browserstack.localIdentifier $BROWSERSTACK_LOCAL_IDENTIFIER --html=report.html --self-contained-html -n '4'
+
+      - name: 'BrowserStackLocal Stop'
+        uses: browserstack/github-actions/setup-local@master
+        with:
+          local-testing: stop
+        if: ${{ always() }}
+
+      - name: Upload pytest test results
+        uses: actions/upload-artifact@v2
+        with:
+          name: pytest-results
+          path: |
+            ./*.html
+            ./output/
+            ./assets/
+        if: ${{ always() }}
+

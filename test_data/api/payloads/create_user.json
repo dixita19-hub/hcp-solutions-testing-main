@@ -1,0 +1,21 @@
+{
+    "context": "professional_profile",
+    "locale": "en-gb",
+    "payload": {
+        "salutation": "Mr",
+        "givenName": "Foo",
+        "familyName": "Bar",
+        "email": "",
+        "designation_name": "Other (HCP)",
+        "designation_specialty": "Other",
+        "designation_specialty2": "Other",
+        "primaryAddress_workplace": "My Address",
+        "primaryAddress_postalCode": "10001",
+        "phoneNumber_work": "11111111111",
+        "license_number": "12345",
+        "traditionalRegistration_password": "Grv@123456",
+        "acknowledgement_professional": true,
+        "acknowledgement_consent": true,
+        "birthday": null
+    }
+}

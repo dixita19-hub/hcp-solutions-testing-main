@@ -1,0 +1,29 @@
+{
+    "VirtualAssistantLocators": {
+        "USAbove": {
+            "va_welcome_text": "//span[contains(text(), 'Welcome to the PfizerPro Virtual Assistant')]",
+            "welcome_text": "//*[@class='extras-virtual-assistant__header-title']",
+            "sales_rep_option": "//button[contains(text(), 'Get in touch with my Sales Representative.')]",
+            "minimize": "//helix-core-button[contains(@class, 'extras-virtual-assistant--minimize hydrated')]",
+            "close": "//helix-core-button[contains(@class, 'extras-virtual-assistant--close hydrated')]",
+            "snackbar": "//div[contains(@class,'footer-menu')]",
+            "snackbar_main_menu": "//div[@class='footer-menu-items']//span[contains(text(), 'Main Menu')]",
+            "snackbar_end_chat": "//div[@class='footer-menu-items']//span[contains(text(), 'End Chat')]",
+            "main_menu_text": "//span[contains(text(), 'I would like to...')]",
+            "end_chat_text": "//span[contains(text(), 'we hope to see you again soon.')]",
+            "ask_med_option": "//button[contains(text(), 'Ask a medical')]",
+            "get_help_option": "//button[contains(text(), 'Get help ordering')]",
+            "learn_more_option": "//button[contains(text(), 'Learn more about patient')]",
+            "speak_with_optionx": "//button[contains(text(), 'Speak with our customer')]",
+            "sales_rep_option_response": "//div[@slot='login-interstitial-message']",
+            "ask_med_option_response": "//span[contains(text(), 'Visit Pfizer Medical')]",
+            "leave_chat": "//span[contains(text(), 'Leave')]",
+            "cancel_chat_request": "//span[contains(text(), 'Cancel Chat Request')]",
+            "privacy_policy": "//a[contains(text(), 'Privacy Policy')]",
+            "policy_head": "//h1[contains(text(), 'Pfizer Privacy Policy U.S.')]",
+            "scroll2end": "[data-key='chevrondown']",
+            "yes_button": "//helix-core-button[@class='extras-virtual-assistant__interstitial--confirm hydrated']",
+            "welcome_main_screen_heading": "//helix-core-heading[@class='hydrated']"
+  }
+      }
+}

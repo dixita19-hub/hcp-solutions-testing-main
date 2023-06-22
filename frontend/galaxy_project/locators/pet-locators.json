@@ -1,0 +1,15 @@
+{
+    "PET": {
+        "Eucrisa": {
+            "account": "//helix-icon[@data-grv-action='my-account']",
+            "sign-out": "//helix-button[contains(text(), 'Sign Out')]",
+            "indication": "//button[@class='nextgen-modal__action-button']",
+            "login-button": "//helix-button[contains(text(), 'Sign In')]"
+        },
+        "USAbove": {
+            "emailid": "//grv-login-flow ~ grv-input ~ helix-input > div > div > input",
+            "passphrase": "//grv-login-flow ~ grv-input-password ~ grv-input ~ helix-input > div > div > input",
+            "login_button": "//grv-login-flow ~ grv-button ~ helix-button"
+        }
+      }
+}

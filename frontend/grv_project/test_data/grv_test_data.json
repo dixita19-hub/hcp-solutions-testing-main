@@ -1,0 +1,742 @@
+{
+    "eu-uk-prod": {
+        "ELEMENT_COLORS": {
+        "RED_ERROR_MESSAGE": "rgba(255, 0, 0, 1)"
+    },
+        "PASSWORD_FIELD_TYPE": {
+        "MASKED": "password",
+        "VISIBLE": "text"
+    },
+        "USERS": {
+        "Execution_User": "",
+        "ROOT_USER": {
+            "EMAIL": "ramacs21",
+            "PASSWORD": ""
+        },
+        "ROOT_USER_OBSOLETE": {
+            "EMAIL": "ramacs21",
+            "PASSWORD": ""
+        },
+        "OBSOLETE_VALID_USER_DETAILS": {
+            "EMAIL": "shiva+02@shivakr.me",
+            "PASSWORD": "Welcome@1234"
+        },
+        "VALID_USER_DETAILS02": {
+            "EMAIL": "testauto001@mailinator.com",
+            "PASSWORD": "Welcome@123"
+        },
+        "VALID_USER_DETAILS": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VIEW_USER_PROFILE_FIRST": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VIEW_USER_PROFILE_SECOND": {
+            "EMAIL": "test-user-uk@mailinator.com",
+            "PASSWORD": "Pfizer@123",
+            "TITLE": "Ms.",
+            "EMAIL_CONSENT": "Yes",
+            "NAME": "test user ",
+            "PROFESSION": "General Practitioner",
+            "SPECIALITY": "Accident & Emergency",
+            "SECOND_SPECIALITY": "Anaesthetics",
+            "WORKPLACE_POSTCODE":"L1 8JQ",
+            "REGISTRATION_NUM": "123123",
+            "MailingAAA": "None",
+            "PREFERENCES" : "Alopecia areata\nType 2 diabetes\nAntibacterials"
+        },
+        "USER_EDIT_PROFILE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123",
+            "TITLE": "Mr.",
+            "EMAIL_CONSENT": "Yes",
+            "FIRST_NAME": "TestAuto",
+            "LAST_NAME": "UserAuto",
+            "EMAIL_EDIT": "None",
+            "PROFESSION": "Pfizer Employee",
+            "SPECIALITY": "Cardiology",
+            "SECOND_SPECIALITY": "Urology",
+            "WORKPLACE_POSTCODE":"L1 8PQ",
+            "REGISTRATION_NUM": "153173",
+            "MailingAAA": "None",
+            "PREFERENCES" : "Alopecia areata\nType 2 diabetes\nAntibacterials",
+            "PREFERENCES_EDIT_1": "Antifungals",
+            "PREFERENCES_EDIT_2": "Pharmacy",
+            "PREFERENCES_EDIT_3": "Ulcerative colitis"
+
+        },
+        "VALID_USER_FOR_ROTATION_ONE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_TWO": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_THREE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_FOUR": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_FIVE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_SIX": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_SEVEN": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_EIGHT": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_NINE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_TEN": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "NOT_REGISTERED_EMAIL_ADDRESS": {
+            "EMAIL": "nonregistered.test@gmail.com",
+            "PASSWORD": ""
+        },
+        "REGISTERED_EMAIL_ADDRESS": {
+            "EMAIL": "testauto001@mailinator.com",
+            "PASSWORD": ""
+        },
+        "VALID_UNREGISTERED_EMAIL": {
+            "EMAIL": "test@tut-test.com",
+            "PASSWORD": ""
+        },
+        "INVALID_USER_DETAILS": {
+            "EMAIL": "shiva811@gmail.com",
+            "PASSWORD": "Welcome@1234"
+        },
+        "INVALID_PASSWORD_USER": {
+            "EMAIL": "",
+            "PASSWORD": "INVALID_PASS_12345"
+        },
+        "NO_PASSWORD": {
+            "EMAIL": "shiva811@gmail.com",
+            "PASSWORD": ""
+        },
+        "NEW_USER_VALID": {
+            "EMAIL": "automated.generated.tester.%s@moduscreate.com",
+            "PASSWORD": "1JazzQA1"
+        },
+        "REGISTERED_USER_NOT_VERIFIED_EMAIL": {
+            "EMAIL": "unverifieduser@mailinator.com",
+            "PASSWORD": "Welcome@123"
+        },
+        "INCORRECT_PASSWORD_TO_ENTER": {
+            "EMAIL": "",
+            "PASSWORD": "abracadabra_password"
+        },
+        "PREDEFINED_NEW_PASSWORD": {
+            "EMAIL": "",
+            "PASSWORD": "Pfizer@123"
+        }
+    }},
+    "sa-br-prod": {
+    "ELEMENT_COLORS": {
+        "RED_ERROR_MESSAGE": "rgba(255, 0, 0, 1)"
+    },
+    "PASSWORD_FIELD_TYPE": {
+        "MASKED": "password",
+        "VISIBLE": "text"
+    },
+    "USERS": {
+        "ROOT_USER": {
+            "EMAIL": "ramacs21",
+            "PASSWORD": ""
+        },
+        "ROOT_USER_OBSOLETE": {
+            "EMAIL": "ramacs21",
+            "PASSWORD": ""
+        },
+        "OBSOLETE_VALID_USER_DETAILS": {
+            "EMAIL": "test-userb771884@mailinator.com",
+            "PASSWORD": "Pfizer@1234"
+        },
+        "VALID_USER_DETAILS": {
+            "EMAIL": "pfzauth0+us-br-hemahub-2@gmail.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VIEW_USER_PROFILE_FIRST": {
+            "EMAIL": "testuserbrazil@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VIEW_USER_PROFILE_SECOND": {
+            "EMAIL": "testuserbrazil@mailinator.com",
+            "PASSWORD": "Pfizer@123",
+            "TITLE": "None",
+            "EMAIL_CONSENT": "None",
+            "NAME": "test",
+            "PROFESSION": "Dentista",
+            "SPECIALITY": "Não se Aplica",
+            "SECOND_SPECIALITY": "None",
+            "WORKPLACE_POSTCODE":"None",
+            "REGISTRATION_NUM": "0001234",
+            "MailingAAA": "AC",
+            "PREFERENCES" : "Alopecia Areata"
+
+        },
+        "USER_EDIT_PROFILE": {
+            "EMAIL": "pfzauth0+us-br-hemahub-2@gmail.com",
+            "PASSWORD": "Pfizer@123",
+            "TITLE": "None",
+            "EMAIL_CONSENT": "No",
+            "FIRST_NAME": "TestAuto",
+            "LAST_NAME": "UserAuto",
+            "EMAIL_EDIT": "None",
+            "PROFESSION": "Médico",
+            "SPECIALITY": "Oncologia",
+            "SECOND_SPECIALITY": "None",
+            "WORKPLACE_POSTCODE":"None",
+            "REGISTRATION_NUM": "101234",
+            "MailingAAA": "AL",
+            "PREFERENCES" : "Alopecia Areata",
+            "PREFERENCES_EDIT_1": "Anemia",
+            "PREFERENCES_EDIT_2": "Pneumonia",
+            "PREFERENCES_EDIT_3": "Vacinas"
+        },
+        "VALID_USER_FOR_ROTATION_ONE": {
+            "EMAIL": "testuserbrazil@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_TWO": {
+            "EMAIL": "testuserbrazil@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_THREE": {
+            "EMAIL": "testuserbrazil@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_FOUR": {
+            "EMAIL": "testuserbrazil@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_FIVE": {
+            "EMAIL": "testuserbrazil@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_SIX": {
+            "EMAIL": "pfzauth0+us-br-hemahub-2@gmail.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_SEVEN": {
+            "EMAIL": "pfzauth0+us-br-hemahub-2@gmail.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_EIGHT": {
+            "EMAIL": "pfzauth0+us-br-hemahub-2@gmail.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_NINE": {
+            "EMAIL": "testuserbrazil@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_TEN": {
+            "EMAIL": "testuserbrazil@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "NOT_REGISTERED_EMAIL_ADDRESS": {
+            "EMAIL": "nonregistered.test@gmail.com",
+            "PASSWORD": ""
+        },
+        "REGISTERED_EMAIL_ADDRESS": {
+            "EMAIL": "testautopz01@mailinator.com",
+            "PASSWORD": ""
+        },
+        "VALID_UNREGISTERED_EMAIL": {
+            "EMAIL": "test@tut-test.com",
+            "PASSWORD": ""
+        },
+        "INVALID_USER_DETAILS": {
+            "EMAIL": "shiva811@gmail.com",
+            "PASSWORD": "Pfizer@1234"
+        },
+        "INVALID_PASSWORD_USER": {
+            "EMAIL": "",
+            "PASSWORD": "INVALID_PASS_12345"
+        },
+        "NO_PASSWORD": {
+            "EMAIL": "shiva811@gmail.com",
+            "PASSWORD": ""
+        },
+        "REGISTERED_USER_NOT_VERIFIED_EMAIL": {
+            "EMAIL": "TBD",
+            "PASSWORD": "TBD"
+        },
+        "INCORRECT_PASSWORD_TO_ENTER": {
+            "EMAIL": "",
+            "PASSWORD": "abracadabra_password"
+        },
+        "PREDEFINED_NEW_PASSWORD": {
+            "EMAIL": "",
+            "PASSWORD": "Pfizer@123"
+        }
+    }
+},
+    "eu-uk-stg": {
+    "ELEMENT_COLORS": {
+        "RED_ERROR_MESSAGE": "rgba(255, 0, 0, 1)"
+    },
+    "PASSWORD_FIELD_TYPE": {
+        "MASKED": "password",
+        "VISIBLE": "text"
+    },
+    "USERS": {
+        "Execution_User": "",
+        "ROOT_USER": {
+            "EMAIL": "ramacs21",
+            "PASSWORD": ""
+        },
+        "ROOT_USER_OBSOLETE": {
+            "EMAIL": "ramacs21",
+            "PASSWORD": ""
+        },
+        "OBSOLETE_VALID_USER_DETAILS": {
+            "EMAIL": "shiva+02@shivakr.me",
+            "PASSWORD": "Welcome@1234"
+        },
+        "VALID_USER_DETAILS02": {
+            "EMAIL": "testauto001@mailinator.com",
+            "PASSWORD": "Welcome@123"
+        },
+        "VALID_USER_DETAILS": {
+            "EMAIL": "pfzauth+eu-uk-grvautomation-1@gmail.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VIEW_USER_PROFILE_FIRST": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VIEW_USER_PROFILE_SECOND": {
+            "EMAIL": "test-user-uk@mailinator.com",
+            "PASSWORD": "Pfizer@123",
+            "TITLE": "Ms.",
+            "EMAIL_CONSENT": "Yes",
+            "NAME": "test user ",
+            "PROFESSION": "General Practitioner",
+            "SPECIALITY": "Accident & Emergency",
+            "SECOND_SPECIALITY": "Anaesthetics",
+            "WORKPLACE_POSTCODE":"L1 8JQ",
+            "REGISTRATION_NUM": "123123",
+            "MailingAAA": "None",
+            "PREFERENCES" : "Alopecia areata\nType 2 diabetes\nAntibacterials"
+        },
+        "USER_EDIT_PROFILE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123",
+            "TITLE": "Mr.",
+            "EMAIL_CONSENT": "Yes",
+            "FIRST_NAME": "TestAuto",
+            "LAST_NAME": "UserAuto",
+            "EMAIL_EDIT": "None",
+            "PROFESSION": "Pfizer Employee",
+            "SPECIALITY": "Cardiology",
+            "SECOND_SPECIALITY": "Urology",
+            "WORKPLACE_POSTCODE":"L1 8PQ",
+            "REGISTRATION_NUM": "153173",
+            "MailingAAA": "None",
+            "PREFERENCES" : "Alopecia areata\nType 2 diabetes\nAntibacterials",
+            "PREFERENCES_EDIT_1": "Antifungals",
+            "PREFERENCES_EDIT_2": "Pharmacy",
+            "PREFERENCES_EDIT_3": "Ulcerative colitis"
+
+        },
+        "VALID_USER_FOR_ROTATION_ONE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_TWO": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_THREE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_FOUR": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_FIVE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_SIX": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_SEVEN": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_EIGHT": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_NINE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_TEN": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "NOT_REGISTERED_EMAIL_ADDRESS": {
+            "EMAIL": "nonregistered.test@gmail.com",
+            "PASSWORD": ""
+        },
+        "REGISTERED_EMAIL_ADDRESS": {
+            "EMAIL": "testauto001@mailinator.com",
+            "PASSWORD": ""
+        },
+        "VALID_UNREGISTERED_EMAIL": {
+            "EMAIL": "test@tut-test.com",
+            "PASSWORD": ""
+        },
+        "INVALID_USER_DETAILS": {
+            "EMAIL": "shiva811@gmail.com",
+            "PASSWORD": "Welcome@1234"
+        },
+        "INVALID_PASSWORD_USER": {
+            "EMAIL": "",
+            "PASSWORD": "INVALID_PASS_12345"
+        },
+        "NO_PASSWORD": {
+            "EMAIL": "shiva811@gmail.com",
+            "PASSWORD": ""
+        },
+        "NEW_USER_VALID": {
+            "EMAIL": "automated.generated.tester.%s@moduscreate.com",
+            "PASSWORD": "1JazzQA1"
+        },
+        "REGISTERED_USER_NOT_VERIFIED_EMAIL": {
+            "EMAIL": "unverifieduser@mailinator.com",
+            "PASSWORD": "Welcome@123"
+        },
+        "INCORRECT_PASSWORD_TO_ENTER": {
+            "EMAIL": "",
+            "PASSWORD": "abracadabra_password"
+        },
+        "PREDEFINED_NEW_PASSWORD": {
+            "EMAIL": "",
+            "PASSWORD": "Pfizer@123"
+        }
+    }
+},
+    "us-us-stg": {
+    "ELEMENT_COLORS": {
+        "RED_ERROR_MESSAGE": "rgba(255, 0, 0, 1)"
+    },
+    "PASSWORD_FIELD_TYPE": {
+        "MASKED": "password",
+        "VISIBLE": "text"
+    },
+    "USERS": {
+        "Execution_User": "",
+        "ROOT_USER": {
+            "EMAIL": "ramacs21",
+            "PASSWORD": ""
+        },
+        "ROOT_USER_OBSOLETE": {
+            "EMAIL": "ramacs21",
+            "PASSWORD": ""
+        },
+        "OBSOLETE_VALID_USER_DETAILS": {
+            "EMAIL": "shiva+02@shivakr.me",
+            "PASSWORD": "Welcome@1234"
+        },
+        "VALID_USER_DETAILS02": {
+            "EMAIL": "testauto001@mailinator.com",
+            "PASSWORD": "Welcome@123"
+        },
+        "VALID_USER_DETAILS": {
+            "EMAIL": "pfzauth0+eu-us-mar-aut-1@gmail.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VIEW_USER_PROFILE_FIRST": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VIEW_USER_PROFILE_SECOND": {
+            "EMAIL": "test-user-uk@mailinator.com",
+            "PASSWORD": "Pfizer@123",
+            "TITLE": "Ms.",
+            "EMAIL_CONSENT": "Yes",
+            "NAME": "test user ",
+            "PROFESSION": "General Practitioner",
+            "SPECIALITY": "Accident & Emergency",
+            "SECOND_SPECIALITY": "Anaesthetics",
+            "WORKPLACE_POSTCODE":"L1 8JQ",
+            "REGISTRATION_NUM": "123123",
+            "MailingAAA": "None",
+            "PREFERENCES" : "Alopecia areata\nType 2 diabetes\nAntibacterials"
+        },
+        "USER_EDIT_PROFILE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123",
+            "TITLE": "Mr.",
+            "EMAIL_CONSENT": "Yes",
+            "FIRST_NAME": "TestAuto",
+            "LAST_NAME": "UserAuto",
+            "EMAIL_EDIT": "None",
+            "PROFESSION": "Pfizer Employee",
+            "SPECIALITY": "Cardiology",
+            "SECOND_SPECIALITY": "Urology",
+            "WORKPLACE_POSTCODE":"L1 8PQ",
+            "REGISTRATION_NUM": "153173",
+            "MailingAAA": "None",
+            "PREFERENCES" : "Alopecia areata\nType 2 diabetes\nAntibacterials",
+            "PREFERENCES_EDIT_1": "Antifungals",
+            "PREFERENCES_EDIT_2": "Pharmacy",
+            "PREFERENCES_EDIT_3": "Ulcerative colitis"
+
+        },
+        "VALID_USER_FOR_ROTATION_ONE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_TWO": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_THREE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_FOUR": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_FIVE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_SIX": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_SEVEN": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_EIGHT": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_NINE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_TEN": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "NOT_REGISTERED_EMAIL_ADDRESS": {
+            "EMAIL": "nonregistered.test@gmail.com",
+            "PASSWORD": ""
+        },
+        "REGISTERED_EMAIL_ADDRESS": {
+            "EMAIL": "testauto001@mailinator.com",
+            "PASSWORD": ""
+        },
+        "VALID_UNREGISTERED_EMAIL": {
+            "EMAIL": "test@tut-test.com",
+            "PASSWORD": ""
+        },
+        "INVALID_USER_DETAILS": {
+            "EMAIL": "shiva811@gmail.com",
+            "PASSWORD": "Welcome@1234"
+        },
+        "INVALID_PASSWORD_USER": {
+            "EMAIL": "",
+            "PASSWORD": "INVALID_PASS_12345"
+        },
+        "NO_PASSWORD": {
+            "EMAIL": "shiva811@gmail.com",
+            "PASSWORD": ""
+        },
+        "NEW_USER_VALID": {
+            "EMAIL": "automated.generated.tester.%s@moduscreate.com",
+            "PASSWORD": "1JazzQA1"
+        },
+        "REGISTERED_USER_NOT_VERIFIED_EMAIL": {
+            "EMAIL": "unverifieduser@mailinator.com",
+            "PASSWORD": "Welcome@123"
+        },
+        "INCORRECT_PASSWORD_TO_ENTER": {
+            "EMAIL": "",
+            "PASSWORD": "abracadabra_password"
+        },
+        "PREDEFINED_NEW_PASSWORD": {
+            "EMAIL": "",
+            "PASSWORD": "Pfizer@123"
+        }
+    }
+},
+    "us-us-prod": {
+    "ELEMENT_COLORS": {
+        "RED_ERROR_MESSAGE": "rgba(255, 0, 0, 1)"
+    },
+    "PASSWORD_FIELD_TYPE": {
+        "MASKED": "password",
+        "VISIBLE": "text"
+    },
+    "USERS": {
+        "Execution_User": "",
+        "ROOT_USER": {
+            "EMAIL": "ramacs21",
+            "PASSWORD": ""
+        },
+        "ROOT_USER_OBSOLETE": {
+            "EMAIL": "ramacs21",
+            "PASSWORD": ""
+        },
+        "OBSOLETE_VALID_USER_DETAILS": {
+            "EMAIL": "shiva+02@shivakr.me",
+            "PASSWORD": "Welcome@1234"
+        },
+        "VALID_USER_DETAILS02": {
+            "EMAIL": "testauto001@mailinator.com",
+            "PASSWORD": "Welcome@123"
+        },
+        "VALID_USER_DETAILS": {
+            "EMAIL": "pfzauth0+eu-us-mar-aut-1@gmail.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VIEW_USER_PROFILE_FIRST": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VIEW_USER_PROFILE_SECOND": {
+            "EMAIL": "test-user-uk@mailinator.com",
+            "PASSWORD": "Pfizer@123",
+            "TITLE": "Ms.",
+            "EMAIL_CONSENT": "Yes",
+            "NAME": "test user ",
+            "PROFESSION": "General Practitioner",
+            "SPECIALITY": "Accident & Emergency",
+            "SECOND_SPECIALITY": "Anaesthetics",
+            "WORKPLACE_POSTCODE":"L1 8JQ",
+            "REGISTRATION_NUM": "123123",
+            "MailingAAA": "None",
+            "PREFERENCES" : "Alopecia areata\nType 2 diabetes\nAntibacterials"
+        },
+        "USER_EDIT_PROFILE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123",
+            "TITLE": "Mr.",
+            "EMAIL_CONSENT": "Yes",
+            "FIRST_NAME": "TestAuto",
+            "LAST_NAME": "UserAuto",
+            "EMAIL_EDIT": "None",
+            "PROFESSION": "Pfizer Employee",
+            "SPECIALITY": "Cardiology",
+            "SECOND_SPECIALITY": "Urology",
+            "WORKPLACE_POSTCODE":"L1 8PQ",
+            "REGISTRATION_NUM": "153173",
+            "MailingAAA": "None",
+            "PREFERENCES" : "Alopecia areata\nType 2 diabetes\nAntibacterials",
+            "PREFERENCES_EDIT_1": "Antifungals",
+            "PREFERENCES_EDIT_2": "Pharmacy",
+            "PREFERENCES_EDIT_3": "Ulcerative colitis"
+
+        },
+        "VALID_USER_FOR_ROTATION_ONE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_TWO": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_THREE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_FOUR": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_FIVE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_SIX": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_SEVEN": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_EIGHT": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_NINE": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "VALID_USER_FOR_ROTATION_TEN": {
+            "EMAIL": "uk-test@mailinator.com",
+            "PASSWORD": "Pfizer@123"
+        },
+        "NOT_REGISTERED_EMAIL_ADDRESS": {
+            "EMAIL": "nonregistered.test@gmail.com",
+            "PASSWORD": ""
+        },
+        "REGISTERED_EMAIL_ADDRESS": {
+            "EMAIL": "testauto001@mailinator.com",
+            "PASSWORD": ""
+        },
+        "VALID_UNREGISTERED_EMAIL": {
+            "EMAIL": "test@tut-test.com",
+            "PASSWORD": ""
+        },
+        "INVALID_USER_DETAILS": {
+            "EMAIL": "shiva811@gmail.com",
+            "PASSWORD": "Welcome@1234"
+        },
+        "INVALID_PASSWORD_USER": {
+            "EMAIL": "",
+            "PASSWORD": "INVALID_PASS_12345"
+        },
+        "NO_PASSWORD": {
+            "EMAIL": "shiva811@gmail.com",
+            "PASSWORD": ""
+        },
+        "NEW_USER_VALID": {
+            "EMAIL": "automated.generated.tester.%s@moduscreate.com",
+            "PASSWORD": "1JazzQA1"
+        },
+        "REGISTERED_USER_NOT_VERIFIED_EMAIL": {
+            "EMAIL": "unverifieduser@mailinator.com",
+            "PASSWORD": "Welcome@123"
+        },
+        "INCORRECT_PASSWORD_TO_ENTER": {
+            "EMAIL": "",
+            "PASSWORD": "abracadabra_password"
+        },
+        "PREDEFINED_NEW_PASSWORD": {
+            "EMAIL": "",
+            "PASSWORD": "Pfizer@123"
+        }
+    }
+}
+}

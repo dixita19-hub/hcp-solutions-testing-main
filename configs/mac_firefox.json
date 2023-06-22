@@ -1,0 +1,16 @@
+{
+    "capabilities": {
+        "browserstack": "True",
+        "browserName": "Firefox",
+        "browserVersion": "latest",
+        "acceptSslCerts": true,
+        "bstack:options": {
+            "os": "OS X",
+            "osVersion": "Monterey",
+            "projectName": "Galaxy",
+            "local": true,
+            "debug": true,
+            "timezone": "UTC"
+        }
+    }
+}

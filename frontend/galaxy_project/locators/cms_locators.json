@@ -1,0 +1,145 @@
+{
+    "CMSLocators": {
+        "Create_speaker": "//a[contains(text(),'Speaker')]",
+        "Create_video": "//a[contains(text(),'Video')]",
+        "Locale_head": "//span[contains(text(), 'Locale')]",
+        "Market": "//select[@data-drupal-selector='edit-field-market']",
+        "Language": "//select[@data-drupal-selector='edit-langcode-0-value']",
+        "login-pfizer": "//span[@class='pfizer-login__link-text pfizer-login__internal']",
+        "username": "//input[@data-drupal-selector='edit-name']",
+        "password": "//input[@data-drupal-selector='edit-pass']",
+        "user_name": "//a[contains(text(), 'QA Automation Admin')]",
+        "logout_btn": "//a[contains(text(), 'Log out')]",
+        "submit": "//input[@data-drupal-selector='edit-submit']",
+        "Add_content": "//a[contains(text(),'Add content')]",
+        "speaker_id": "//input[@data-drupal-selector='edit-field-speaker-id-0-value']",
+        "speaker_title": "//input[@data-drupal-selector='edit-field-speaker-title-0-value']",
+        "firstName": "//input[@data-drupal-selector='edit-field-first-name-0-value']",
+        "lastName": "//input[@data-drupal-selector='edit-field-last-name-0-value']",
+        "credentials": "//input[@data-drupal-selector='edit-field-credentials-0-value']",
+        "company": "//input[@data-drupal-selector='edit-field-company-0-value']",
+        "jobTitle": "//input[@data-drupal-selector='edit-field-job-title-0-value']",
+        "video_name": "//a[contains(text(), 'Auto Video - Test QA')]", 
+        "event_name": "//a[contains(text(), 'Auto Event - Test QA')]", 
+        "material_name": "//a[contains(text(), 'Auto Material - Test QA')]",
+        "search_box": "//input[@data-drupal-selector='edit-title']",
+        "filter_btn": "//input[@data-drupal-selector='edit-submit-content']",
+        "hcp_confirmation_yes": "//helix-core-button[text()='Yes']",
+        "first_event_card": "//extras-content-listing ~ div > helix-core-card-group >div.extras-content-list-card:nth-child(1)",
+        "first_event_title1": "//extras-content-listing ~ div > helix-core-card-group >div.extras-content-list-card:nth-child(1) > extras-content-card ~ div:nth-child(1) > helix-replaceable-content:nth-child(1) > div.helix-replaceable-content__content > div:nth-child(1) > helix-core-card > div:nth-of-type(1) > helix-core-heading ~ h5",
+        "first_event_title": "//extras-content-listing ~ div > helix-core-card-group >div.extras-content-list-card:nth-child(1) > extras-content-card ~ div:nth-child(1) > helix-replaceable-content:nth-child(1) > div.helix-replaceable-content__content > div:nth-child(1) > helix-core-card > div:nth-of-type(1) > helix-core-heading",
+        "second_event_card": "//extras-content-listing ~ div > helix-core-card-group >div.extras-content-list-card:nth-child(2)",
+        "second_card_title": "//extras-content-listing ~ div > helix-core-card-group >div.extras-content-list-card:nth-child(2) > extras-content-card ~ div:nth-child(1) > helix-replaceable-content:nth-child(1) > div.helix-replaceable-content__content > div:nth-child(1) > helix-core-card > div:nth-of-type(1) > helix-core-heading",
+        "save_as": 
+        { 
+           "needs_review": "//select[@data-drupal-selector='edit-moderation-state-0-state']//option[contains(text(), 'Needs Review')]",
+           "unpublished": "//select[@data-drupal-selector='edit-moderation-state-0-state']//option[contains(text(), 'Unpublished')]"
+        },
+        "revision_log": "//textarea[@data-drupal-selector='edit-revision-log-0-value']",
+        "title": "//input[@data-drupal-selector='edit-title-0-value']",
+        "biography": "//iframe[@title='Rich Text Editor, Biography field']",
+        "save_btn": "//input[@data-drupal-selector='edit-submit']",
+        "preview_btn": "//input[@data-drupal-selector='edit-preview']",
+        "access":{
+            "private": "//select[@data-drupal-selector='edit-field-image-0-subform-field-asset-access']//option[contains(text(), 'Private')]"
+        },
+        "market": {
+            "UK": "//select[@data-drupal-selector='edit-field-market']//option[contains(text(), 'UK')]"
+        },
+
+        "moderation_state": 
+        {
+            "published": "//select[@data-drupal-selector='edit-new-state']//option[contains(text(), 'Published')]"
+        }
+        , 
+        "edit_revision_log": "//input[@data-drupal-selector='edit-revision-log']",
+        "message_moderation_state_updated": "//div[@class='messages__content' and contains(text(), 'The moderation state has been updated.')]",
+        "message": "//div[@class='messages__content']",
+        "remove_from_preview": "//input[@data-drupal-selector='edit-submit' and contains(@value, 'Remove from Preview')]",
+        "delete_tab": "//a[@class='tabs__link js-tabs-link' and contains(text(), 'Delete')]",
+        "preview_tab": "//a[@class='tabs__link js-tabs-link' and contains(text(), 'Preview')]", 
+        "edit_tab": "//a[text()='Edit']",
+        "Create_event": "//a[contains(text(),'Event')]",
+        "Create_material": "//a[contains(text(),'Material')]",
+
+        "EventForm": 
+        {
+            "associationType": "//input[@data-drupal-selector='edit-field-rel-type-brand']",
+            "brandName_bavencioUK": "//select[@data-drupal-selector='edit-field-brands']//option[contains(text(), 'Bavencio-UK')]",
+            "schedule": 
+                {
+                     "date": "//input[@data-drupal-selector='edit-field-date-date-0-value']", 
+                     "time": "//input[@data-drupal-selector='edit-field-date-time-0-value']",
+                     "timezone": "//input[@data-drupal-selector='edit-field-date-tz-0-value']",
+                     "datetime": "//input[@data-drupal-selector='edit-field-date-datetime-0-value']"
+                },
+
+            "subtitle": "//input[@data-drupal-selector='edit-field-subtitle-0-value']", 
+            "summary": "//iframe[@title='Rich Text Editor, Summary field']",
+            "description": "//iframe[@title='Rich Text Editor, Description field']",
+
+            "agenda": 
+                {
+                    "title": "//input[@data-drupal-selector='edit-field-agenda-0-subform-field-title-0-value']",
+                    "description": "//div[@data-drupal-selector='edit-field-agenda-0']//iframe[@title='Rich Text Editor, Description field']",
+                    "speaker_label": "//input[@data-drupal-selector='edit-field-agenda-0-subform-field-speaker-label-0-value']", 
+                    "startTime": "//input[@data-drupal-selector='edit-field-agenda-0-subform-field-start-time-0-value']",
+                    "speakerSearch": "//input[@data-drupal-selector='edit-field-agenda-0-subform-field-start-time-0-value']",
+                    "endTime": "//input[@data-drupal-selector='edit-field-agenda-0-subform-field-end-time-0-value']",
+                    "hostRep": "//input[@data-drupal-selector='edit-field-contact-0-value']"
+                },
+            "thumbnail": 
+            { 
+                "Pubaccess": "//select[@data-drupal-selector='edit-field-image-thumb-0-inline-entity-form-field-asset-access']//option[contains(text(), 'Public')]"
+            },
+
+            "previewImage": 
+            {
+                "Pubaccess": "//select[@data-drupal-selector='edit-field-image-preview-0-inline-entity-form-field-asset-access']//option[contains(text(), 'Public')]"
+            },
+            "download": {
+                "Pubaccess": "//select[@data-drupal-selector='edit-field-file-download-0-inline-entity-form-field-asset-access']//option[contains(text(), 'Validated')]"
+            },
+
+            "prescribingInfo": "//iframe[@title='Rich Text Editor, Prescribing Info (PI) and Risk Minimization Materials (RMM) field']", 
+            "audience_1": "//select[@data-drupal-selector='edit-field-audience']//option[contains(text(), 'Doctors')]",
+            "eventFormat_1": "//select[@data-drupal-selector='edit-field-event-format']//option[contains(text(), 'Live Event UK')]",
+            "interventions": "//select[@data-drupal-selector='edit-field-interventions']//option[contains(text(), 'Surgery')]",
+            "tags": "//input[@data-drupal-selector='edit-field-tags-0-target-id']",
+            "featuredCheckbox": "//label[contains(text(), 'Featured')]",
+            "jobBagNum": "//input[@data-drupal-selector='edit-field-job-bag-number-0-value']",
+            "duration": "//input[@data-drupal-selector='edit-field-duration-0-value']",
+            "registrationURL": "//input[@data-drupal-selector='edit-field-registration-url-0-uri']",
+            "expirationDate": "//input[@data-drupal-selector='edit-field-expiration-date-0-value-date']",
+            "expirationTime": "//input[@data-drupal-selector='edit-field-expiration-date-0-value-time']",
+            "materials": {
+                "addButton": "//input[@data-drupal-selector='edit-field-event-materials-actions-ief-add']",
+                "title": "//input[@data-drupal-selector='edit-field-event-materials-form-0-field-title-0-value']",
+                "description": "//iframe[@title='Rich Text Editor, Material Description field']",
+                "accessPublic": "//select[@data-drupal-selector='edit-field-event-materials-form-0-field-asset-access']//option[contains(text(), 'Public')]",
+                "createButton": "//input[@data-drupal-selector='edit-field-event-materials-form-0-actions-ief-add-save']"
+
+            },
+            "legalDisclaimer": "//iframe[@title='Rich Text Editor, Legal Disclaimer field']",
+            "legalDisclaimer(Model)": "//iframe[@title='Rich Text Editor, Legal Disclaimer (Modal) field']"
+        },
+
+        "videoForm":
+            {
+               "URL": "//input[@data-drupal-selector='edit-field-url-0-uri']",
+               "audience_option": "//select[@data-drupal-selector='edit-field-audience']//option[contains(text(), 'Doctors')]",
+               "video_format_option": "//select[@data-drupal-selector='edit-field-video-format']//option[contains(text(), 'Webinar')]" 
+            },
+
+        "materialForm": {
+                "listingSummary": "//iframe[@title='Rich Text Editor, Listing Summary field']", 
+                "cardSummary": "//iframe[@title='Rich Text Editor, Card Summary field']",
+                "seoMetadat": "//input[@data-drupal-selector='edit-field-seo-metadata-0-target-id']",
+                "searchKeywords": "//input[@data-drupal-selector='edit-field-search-keywords-0-target-id']",
+                "materialFormat": "//select[@data-drupal-selector='edit-field-material-format']//option[contains(text(), 'PDF')]"
+
+            }
+
+
+    }
+}

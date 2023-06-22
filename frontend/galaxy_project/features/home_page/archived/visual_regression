@@ -1,0 +1,86 @@
+@nondestructive @homepage @visualregression
+Feature: Pfizer Pro Home Page - Home page visual regression automated tests
+
+    Background:
+        Given I am on the page 'https://www.pfizerpro.com'
+        And Browser is maximized
+        When I pause for '5' s
+
+    @001 @automated @usabove
+    Scenario: Masthead is displayed in home page
+        Given The title is 'Home | Pfizer For Professionals'
+        Then I verify that element 'USAbove > masthead' is not visually regressed:
+            | base_image             |
+            | home_page_masthead.png |
+
+    @002 @automated @usabove
+    Scenario: Home page menu is not visually regressed
+        Given The title is 'Home | Pfizer For Professionals'
+        When I pause for '5' s
+        Then I verify that element 'Common > helix-core-menu' is not visually regressed:
+            | base_image         |
+            | home_page_menu.png |
+
+    @003 @automated @usabove
+    Scenario: Order, Patient Assistance, Pfizer Products step down cards not visually regressed
+        Given The title is 'Home | Pfizer For Professionals'
+        When I pause for '5' s
+        And I scroll to element 'Common > gjs_heading_section'
+        And I pause for '5' s
+        Then I verify that element 'Common > helix-core-three-card-step-down' is not visually regressed:
+            | base_image                                    |
+            | home_page_helix-core-three-card-step-down.png |
+
+    @004 @automated @usabove
+    Scenario: HCP & Patient Materials, Samples & Co-Pay Cards, Vaccines, Biologics** & Hospital Products step up cards not visually regressed
+        Given The title is 'Home | Pfizer For Professionals'
+        When I pause for '5' s
+        And I scroll to element 'Common > helix-core-three-card-step-up'
+        And I pause for '5' s
+        Then I verify that element 'Common > helix-core-three-card-step-up' is not visually regressed:
+            | base_image                       |
+            | home_page_three-card-step-up.png |
+
+    @005 @automated @usabove
+    Scenario: Home banner is displayed on page
+        Given The title is 'Home | Pfizer For Professionals'
+        Then I verify that element 'Common > home_banner' is not visually regressed:
+            | base_image                 |
+            | home_page_banner_image.png |
+
+    @006 @automated @ukabove
+    Scenario: Masthead is displayed in home page
+        Given The title is 'Home | PfizerPro UK'
+        Then I verify that element 'UKAbove > mast_head' is not visually regressed:
+            | base_image                |
+            | home_page_uk_masthead.png |
+
+    @007 @automated @ukabove
+    Scenario: Home banner is displayed on page
+        Given The title is 'Home | PfizerPro UK'
+        Then I verify that element 'Common > home_banner' is not visually regressed:
+            | base_image                    |
+            | home_page_banner_uk_image.png |
+
+    @008 @automated @ukabove
+    Scenario: Order, Patient Assistance, Pfizer Medical cards are displayed
+        Given The title is 'Home | PfizerPro UK'
+        When I scroll to element 'UKAbove > card_items_section'
+        And I pause for '5' s
+        Then I verify that element 'UKAbove > card_items_section' is not visually regressed:
+            | base_image                          |
+            | home_page_helix_core_three_card.png |
+
+    @009 @automated @ukabove
+    Scenario: Ask A Question card is displayed in home page
+        Given The title is 'Home | PfizerPro UK'
+        When I scroll to element 'UKAbove > ask_a_question_section'
+        And I pause for '5' s
+        Then I verify that element 'UKAbove > ask_a_question_section' is not visually regressed:
+            | base_image                      |
+            | home_ask_a_question_section.png |
+
+
+
+
+

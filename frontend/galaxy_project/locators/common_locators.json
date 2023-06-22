@@ -1,0 +1,7 @@
+{
+    "CommonLocators": {
+        "helix_heading": "//helix-core-heading[contains(text(), '{}')]",
+        "helix_heading_successfully": "//helix-core-heading[contains(text(), 'successfully!')]",
+        "helix_button": "//helix-button[@href='/{}']"
+    }
+}

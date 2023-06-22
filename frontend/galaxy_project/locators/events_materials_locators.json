@@ -1,0 +1,85 @@
+{
+    "MaterialsLocators": {
+        "menu_picker_ta_default": "//div[@class='control__label' and contains(text(),'Therapy Area')]/parent::div//helix-dropdown-trigger ~ .trigger__items",
+        "menu_picker_product_default": "//div[@class='control__label' and contains(text(),'Product')]/parent::div//helix-dropdown-trigger ~ .trigger__items",
+        "menu_picker_ta_dropdown": "//div[@class='control__label' and contains(text(),'Select Therapy Area')]",
+        "menu_picker_ta_dropdown_item": "//helix-dropdown-item[contains(text(), 'Rheumatic Diseases')]",
+        "go-button": "//extras-menu-picker[@class='hydrated']//helix-core-button[1]",
+        "clear-filters-link": "//extras-menu-picker[@class='hydrated']//helix-core-button[2]",
+        "go-button-disabled": "//extras-menu-picker[@class='hydrated']//helix-core-button[1] ~ .button--disabled",
+        "clear-filters-disabled": "//extras-menu-picker[@class='hydrated']//helix-core-button[2] ~ .button--disabled",
+        "menu_picker_product_dropdown": "//div[@class='control__label' and contains(text(),'Select Product')]",
+        "menu_picker_product_dropdown_item": "//helix-dropdown-item[contains(text(), 'BESPONSA')]",
+        "menu_picker_product_dropdown_list": "//helix-dropdown-item[contains(text(), 'Product')]",
+        "menu_picker_product_list": "//helix-core-content/p/span/a[contains(text(),\"Prescribing Information\")]",
+        "menu_picker_items": "//helix-core-card/div",
+        "no_cards_message": "(//helix-core-layout-container//helix-core-heading)[2]//helix-core-content[text()=\"No materials currently available\"]",
+        "US": {
+            "FilterPicker": {
+                "filter_picker_ta_dropdown": "//div[@class='control__label' and contains(text(),'Select Therapy Area')]",
+                "filter_picker_ta_dropdown_item_acromegaly": "//helix-dropdown-item[contains(text(), 'Acromegaly')]",
+                "filter_picker_ta_default": "//div[@class='control__label' and contains(text(),'Select Therapy Area')]/parent::div//helix-dropdown-trigger ~ div > div > div",
+                "filter_picker_product_dropdown": "//div[@class='control__label' and contains(text(),'Select Product')]",
+                "filter_picker_product_default": "//div[@class='control__label' and contains(text(),'Select Product')]/parent::div//helix-dropdown-trigger ~ div > div > div",
+                "filter_picker_audience_dropdown": "//div[@class='control__label' and contains(text(),'Audience')]",
+                "filter_picker_ta_dropdown_item_no_materials": "//helix-dropdown-item[contains(text(), 'Ankylosing Spondylitis')]",
+                "filter_picker_product_dropdown_item": "//helix-dropdown-item[contains(text(), 'Xalkori')]",
+                "filter_picker_product_dropdown_item2": "//helix-dropdown-item[contains(text(), 'Champix')]",
+                "filter_picker_product_dropdown_no_materials": "//helix-dropdown-item[contains(text(), 'Zinforo')]",
+                "filter_picker_audience_dropdown_item": "//helix-dropdown-item[contains(text(), 'HCP Materials')]",
+                "filter_picker_audience_dropdown_item2": "//helix-dropdown-item[contains(text(), 'Patient Materials')]",
+                "listing_card_link": "//extras-virtual-core-listing ~ .helix-extras-virtual-core-video-card__piRmmMessage > p > a",
+                "no_message_available_heading": "//helix-core-heading/helix-core-content",
+                "filters_default": "//div[@class='control__label' and contains(text(),'{}')]/parent::div//helix-dropdown-trigger ~ .trigger__items",
+                "filter_picker_reset_button": "//extras-filter-reset/helix-core-button ~ button",
+                "filter_picker_mt_default": "//div[@class='control__label' and contains(text(),'Select Materials Type')]/parent::div//helix-dropdown-trigger ~ div > div > div",
+                "filter_picker_mt_dropdown_item": "//helix-dropdown-item[contains(text(), 'Booklet')]",
+                "filter_picker_mt_dropdown_item2": "//helix-dropdown-item[contains(text(), 'PDF')]",
+                "filter_picker_audience_default": "//div[@class='control__label' and contains(text(),'Audience')]/parent::div//helix-dropdown-trigger ~ div > div > div",
+                "cards_section": "//extras-virtual-core-listing ~ div > helix-core-card-group",
+                "materials_cards": "//helixa-core-grid/helix-core-grid-item/div/extras-virtual-core-listing ~ div > helix-core-card-group",
+                "material_cards": "//helix-core-grid/helix-core-grid-item/div/extras-virtual-core-listing ~ div > helix-core-card-group",
+                "filter_picker_vt_default": "//div[@class='control__label' and contains(text(),'Select Video Type')]/parent::div//helix-dropdown-trigger ~ div > div > div",
+                "filter_picker_vta_dropdown_item": "//helix-dropdown-item[contains(text(), 'Haemophilia')]",
+                "filter_picker_vta_dropdown_item2": "//helix-dropdown-item[contains(text(), 'Transthyretin amyloid cardiomyopathy (ATTR-CM)')]",
+                "filter_picker_vproduct_dropdown_item": "//helix-dropdown-item[contains(text(), 'nonacog alfa')]",
+                "filter_picker_vt_dropdown_item": "//helix-dropdown-item[contains(text(), 'OnDemand video')]",
+                "filter_picker_vt_dropdown_item2": "//helix-dropdown-item[contains(text(), 'Case studies')]",
+                "filter_picker_vaudience_dropdown_item": "//helix-dropdown-item[contains(text(), 'HCP Materials')]",
+                "reset_button": "//extras-filter-reset/helix-core-button ~ button",
+                "filter_picker_materials_badge": "//*[contains(text(),'{}')]"
+                },
+                "material_card": {
+                    "card": "//extras-content-listing ~ .extras-content-listing > helix-core-card-group >  div:nth-of-type(1) > extras-content-card:nth-of-type(1) ~ div > helix-replaceable-content > div.helix-replaceable-content__content > div > helix-core-card",
+                    "email": "//extras-content-listing ~ .extras-content-listing > helix-core-card-group > div:nth-of-type(1) > extras-content-card:nth-of-type(1) ~ div > helix-replaceable-content > div.helix-replaceable-content__content > div > helix-core-card > div:nth-of-type(3) > extras-material-card-actions ~ .extras-material-card-actions__email ~ .extras-email-share__email ~ a",
+                    "download": "//extras-content-listing ~ .extras-content-listing > helix-core-card-group >  div:nth-of-type(1) > extras-content-card:nth-of-type(1) ~ div > helix-replaceable-content > div.helix-replaceable-content__content > div > helix-core-card > div:nth-of-type(3) > extras-material-card-actions ~ ul > li:nth-of-type(1) > helix-core-button ~ a",
+                    "body": "//extras-content-listing ~ .extras-content-listing > helix-core-card-group>  div:nth-of-type(1) > extras-content-card:nth-of-type(1) ~ div > helix-replaceable-content > div.helix-replaceable-content__content > div > helix-core-card > div:nth-of-type(2) > extras-content-toggle",
+                    "tag": "//extras-content-listing ~ .extras-content-listing > helix-core-card-group >  div:nth-of-type(1) > extras-content-card:nth-of-type(1) ~ div > helix-replaceable-content > div.helix-replaceable-content__content > div > helix-core-card > div:nth-of-type(1) > div > helix-core-badge[part=\"tag\"]",
+                    "image": "//extras-content-listing ~ .extras-content-listing > helix-core-card-group>  div:nth-of-type(1) > extras-content-card:nth-of-type(1) ~ div > helix-replaceable-content > div.helix-replaceable-content__content > div > helix-core-card > helix-core-image ~ picture > img"
+                }
+        },
+        "UK": {
+            "FilterPicker": {
+                "filter_picker_type_dropdown_btn": "//div[text()=\"Select Type \"]/..//helix-core-icon",
+                "filter_picker_Audience_dropdown_btn": "//div[text()=\"Select Audience \"]/..//helix-core-icon",
+                "filter_picker_type_dropdown_item_guide": "(//div[text()=\"Select Type \"]/..//helix-dropdown-item)[1] ~ input[type=\"checkbox\"]",
+                "filter_picker_type_dropdown_item_brochure": "(//div[text()=\"Select Type \"]/..//helix-dropdown-item)[2] ~ input[type=\"checkbox\"]",
+                "filter_picker_type_selected_item": "//div[text()=\"Select Type \"]/..//helix-dropdown-trigger ~ div.extras-dropdown-trigger > div.trigger__items > div.trigger__item",
+                "filter_picker_audience_dropdown_item_HCP_Materials": "//div[text()=\"Select Type \"]/..//helix-dropdown-item[text()='HCP Materials'] ~ input[type=\"checkbox\"]",
+                "filter_picker_audience_dropdown_item_patient_resources": "//div[text()=\"Select Audience \"]/..//helix-dropdown-item[text()='Patient Resources'] ~ input[type=\"checkbox\"]",
+                "filter_picker_type_dropdown_item_hcp_resources": "//div[text()=\"Select Audience \"]/..//helix-dropdown-item[text()='Patient Materials'] ~ input[type=\"checkbox\"]",
+                "filter_picker_type_dropdown_item_flashcard": "//div[text()=\"Select Type \"]/..//helix-dropdown-item[text()='Flashcard'] ~ input[type=\"checkbox\"]",
+                "filter_picker_audience_selected_item": "//div[text()=\"Select Audience \"]/..//helix-dropdown-trigger ~ div.extras-dropdown-trigger > div.trigger__items > div.trigger__item",
+                "filter_picker_reset_button": "//extras-filter-reset/helix-core-button ~ button"
+            },
+            "material_card": {
+                    "card": "//extras-content-listing[@target=\"virtual-core\"] ~ .extras-content-listing__grid >  div:nth-of-type(1) > extras-content-card:nth-of-type(1) ~ div > helix-replaceable-content > div > div > helix-core-card",
+                    "email": "//extras-content-listing[@target=\"virtual-core\"] ~ .extras-content-listing__grid >  div:nth-of-type(1) > extras-content-card:nth-of-type(1) ~ div > helix-replaceable-content > div > div > helix-core-card > div > extras-material-card-actions ~ .extras-material-card-actions__email ~ .extras-email-share__email ~ a",
+                    "download": "//extras-content-listing[@target=\"virtual-core\"] ~ .extras-content-listing__grid >  div:nth-of-type(1) > extras-content-card:nth-of-type(1) ~ div > helix-replaceable-content > div > div > helix-core-card > div > extras-material-card-actions ~ .extras-material-card-actions__email ~ a[name=\"DownloadMaterial\"",
+                    "body": "//extras-content-listing[@target=\"virtual-core\"] ~ .extras-content-listing__grid >  div:nth-of-type(1) > extras-content-card:nth-of-type(1) ~ div > helix-replaceable-content > div > div > helix-core-card > div > extras-content-toggle ~ .extras-content-toggle__expanded-content",
+                    "tag": "//extras-content-listing[@target=\"virtual-core\"] ~ .extras-content-listing__grid >  div:nth-of-type(1) > extras-content-card:nth-of-type(1) ~ div > helix-replaceable-content > div > div > helix-core-card > div > div > helix-core-badge[part=\"tag\"]",
+                    "image": "//extras-content-listing[@target=\"virtual-core\"] ~ .extras-content-listing__grid >  div:nth-of-type(1) > extras-content-card:nth-of-type(1) ~ div > helix-replaceable-content > div > div > helix-core-card ~ helix-core-image ~ img"
+                }
+        }
+    }
+}

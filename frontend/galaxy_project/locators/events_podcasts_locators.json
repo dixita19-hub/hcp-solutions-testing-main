@@ -1,0 +1,27 @@
+{
+    "PodcastsLocators": {
+            "explore_content_podcasts_link": "//helix-core-menu-item/helix-core-button[contains(@href,'podcasts')]",
+            "explore_content_menu": "//helix-core-button[contains(@href,'explore-content')]",
+            "podcasts_tab": "//helix-core-grid-item/div[@class='galaxy-static-tabs']/div[@class='galaxy-static-tabs__tabs']/helix-core-button-group/helix-core-button[@variant='primary']",
+            "filter_picker_ta_dropdown_item": "//helix-dropdown-item[contains(text(), 'Breast Cancer')]",
+            "filter_picker_product_dropdown_item": "//helix-dropdown-item[contains(text(), 'BeneFIX')]",
+            "filter_picker_ta_no_podcasts": "//helix-dropdown-item[contains(text(), 'Acromegaly')]",
+            "explore_other_podcasts": "//helix-core-button[contains(@variant,'primary') and contains(@href,'/ms-podcasts')] ~ a",
+            "podcasts_card": "//helix-core-grid[1]/helix-core-grid-item[1]/extras-podcast-card",
+            "podcasts_cards": "//helix-core-grid/helix-core-grid-item/extras-podcast-card",
+            "podcast_card_play_button": "//helix-core-grid[1]/helix-core-grid-item[1]/extras-podcast-card/helix-core-button-group/helix-core-button",
+            "no_podcasts_message": "//helix-core-grid-item/div/div[1][contains(text(),'No podcasts')]",
+            "podcasts_menu": "//helix-core-menu[@theme='secondary']/helix-core-menu-item[3]/helix-core-button",
+            "patient_support_menu": "//helix-core-menu[@theme='secondary']/helix-core-menu-item[5] ~ div > helix-core-accordion",
+            "podcasts_sub_menu": "//helix-core-menu[@theme='secondary']/helix-core-menu-item[5]/helix-core-menu-item-group/helix-core-menu-item/helix-core-button",
+            "further_listening_header": "//span[text()='Further Listening']",
+            "podcasts_container": "//helix-core-podcast-container",
+            "podcasts_container_iframe": "//helix-core-podcast-container ~ div > iframe",
+            "podcasts_container_play_button": "//button[@class='play-pause size-normal']",
+            "podcasts_container_pause_button": "//button[@class='play-pause is-playing size-normal']",
+            "podcasts_card_read_more_link": "//helix-core-grid[1]/helix-core-grid-item/extras-podcast-card/extras-content-toggle ~ helix-core-button",
+            "podcasts_card_expanded_content": "//helix-core-grid[1]/helix-core-grid-item/extras-podcast-card/extras-content-toggle/div[2][@slot='expanded']",
+            "podcasts_card_read_less_link": "//helix-core-grid[1]/helix-core-grid-item/extras-podcast-card/extras-content-toggle ~ div > div:nth-child(2) > helix-core-button",
+            "podcasts_card_collapsed_content": "//helix-core-grid[1]/helix-core-grid-item/extras-podcast-card/extras-content-toggle/div[@slot='collapsed']"
+    }
+}

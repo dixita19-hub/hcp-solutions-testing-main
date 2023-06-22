@@ -1,0 +1,492 @@
+{
+    "us-us-prod": {
+        "URL": "https://pfizeresxalkori-preview.site.pfizer/",
+        "BUTTON": {
+            "LOGIN": "Log in"
+        },
+        "FORGOT_PASSWORD_MESSAGE": {
+            "SUCCESSFUL_PASSWORD_EMAIL_SENT_TEXT": "We’ve found your account, and sent you an email with instructions to reset your password.",
+            "NO_ACCOUNT_FOUND_ERROR": "Please enter a valid email address."
+        },
+        "THANK_YOU_FOR_REGISTRATION_MESSAGE": {
+            "THANK_YOU_FOR_REGISTERING_HEADER_MESSAGE": "Thank you for registering with Pfizer!",
+            "THANK_YOU_FOR_REGISTERING_SUBHEADER_MESSAGE": "We have sent an email to %s with a verification link to activate your account. Once you have activated your account, you will have access to:"
+        },
+        "NEW_PASSWORD_ERROR_MESSAGE": {
+            "PASSWORD_REQUIRED": "Password is required",
+            "PASSWORD_REQUIRED_CONFIRM": "Password is required",
+            "CURRENT_PASSWORD_REQUIRED": "Current Password is required",
+            "INCORRECT_CURRENT_PASSWORD": "Incorrect password. Please try again."
+        },
+        "PASSWORD_VALIDATION_ERROR_MESSAGE": {
+            "BETWEEN_8_AND_20_CHARS": "Between 8 and 20 characters",
+            "CONTAINS_NUMBER": "Contains a number",
+            "DOESNT_CONTAIN_FNAME_LNAME_EMAIL": "Must not contain first or last name or email address",
+            "CONTAINS_UPPERCASE_LETTER": "Contains an uppercase character",
+            "CONTAINS_LOWERCASE_LETTER": "Contains a lowercase letter"
+        },
+        "ERROR_MESSAGE": {
+            "TOO_MANY_FAILED_LOGIN_ATTEMPTS": "Too many failed login attempts. Please try again later.",
+            "EMAIL_ALREADY_REGISTERED": "That email is already registered, please log in instead.",
+            "EMAIL_VALIDATION_MESSAGE": "Please enter a valid email address.",
+            "INVALID_CREDENTIALS": "Username and password do not match. Please try again.",
+            "PASSWORD_REQUIRED": "Password is required",
+            "SPECIALITY_ONE_REQUIRED": "Specialty is required.",
+            "PROFESSION_REQUIRED": "Profession is required.",
+            "POSTCODE_REQUIRED": "Postcode is required",
+            "ENTER_VALID_POSTCODE": "Please enter a valid Post Code",
+            "LICENSE_REQUIRED": "License number is required.",
+            "LICENSE_LESS_THAN_SEVEN_CHARS_MESSAGE": "Please enter a valid License Number",
+            "LICENSE_NUMBER_CANNOT_BE_MORE_THAN_TWELVE_CHARACTERS": "Please enter a valid License Number",
+            "EMAIL_NOT_VALID_ERROR": "Please enter a valid email address."
+        },
+        "PRIVACY_POLICY_PAGE_TITLE": "Pfizer Privacy Notice",
+        "BASE_HOME_PAGE_TITLE": "Home | PfizerPro UK",
+        "PRIVACY_COOKIE_POLICY_TITLE": "United Kingdom | Pfizer Privacy Notice",
+        "TOS_PAGE_TITLE": "Terms of Use | Pfizer for Professionals",
+        "STEP_3": {
+            "PASSWORD_FNAME_LNAME_EMAIL_VALIDATION": "Does not contain first name, last name or email address"
+        },
+        "PROFILE": {
+            "PERSONAL": {
+                "EMAIL_LABEL": "Email Address",
+                "TITLE_LABEL": "Title",
+                "NAME_LABEL": "Name",
+                "CONSENT_MSG": "I consent to receiving healthcare, medical and scientific related information, by email or other electronic means, which Pfizer believes may be of value to me, relevant to my work and tailored to my professional profile and interests. This may include promotional information on products promoted by Pfizer",
+                "DELETE_LABEL": "Delete account"
+            },
+            "EDIT_PERSONAL": {
+                "TITLE": "Personal Information",
+                "TITLE_VALIDATION": "Title is required",
+                "FIRST_NAME_VALIDATION": "First name is required",
+                "SECOND_NAME_VALIDATION": "Last name is required.",
+                "EMAIL_VALIDATION_EMPTY": "Email address is required.",
+                "EMAIL_VALIDATION_FORMAT": "Please enter a valid email address."
+            },
+            "PROFESSIONAL": {
+                "PROFESSION_LABEL": "Profession",
+                "SPECIALTY_LABEL": "Specialty",
+                "SECOND_SPECIALTY_LABEL": "Second Specialty",
+                "REGISTRATION_LABEL": "Registration / LSP Number",
+                "POSTCODE_LABEL": "Workplace Postcode",
+                "MAILINGADDRESS_LABEL": "None"
+            },
+            "EDIT_PROFESSIONAL": {
+                "TITLE": "Professional Information",
+                "PROFESSION_VALIDATION": "Profession is required.",
+                "SPECIALTY_VALIDATION": "Specialty is required.",
+                "REGISTRATION_VALIDATION": "Registration/LSP number is required",
+                "REGISTRATION_FORMAT_VALIDATION": "Please enter a valid License Number",
+                "POSTCODE_VALIDATION": "Postcode is required",
+                "POSTCODE_FORMAT_VALIDATION": "Please enter a valid Post Code"
+            },
+            "PREFERENCES": {
+                "PREFERENCES_LABEL": "Preferred Therapy Areas",
+                "EDIT_BUTTON": "Edit preferences"
+            },
+            "EDIT_PREFERENCES": {
+                "TITLE": "Edit Preferences"
+            },
+            "PASSWORD": {
+                "PASSWORD_LABEL": "Password"
+            },
+            "EDIT_PASSWORD": {
+                "TITLE": "Choose a new password"
+            },
+            "EDIT_BUTTON": "Edit"
+        },
+        "HOME_PAGE_TITLE": "Home | PfizerPro UK"
+    },
+    "eu-uk-prod": {
+        "URL": "https://pfizerpro.co.uk/",
+        "BUTTON": {
+            "LOGIN": "Log in"
+        },
+        "FORGOT_PASSWORD_MESSAGE": {
+            "SUCCESSFUL_PASSWORD_EMAIL_SENT_TEXT": "We can confirm your email address is linked to an account at PfizerPro and have sent an email with instructions to reset your password.",
+            "NO_ACCOUNT_FOUND_ERROR": "Please enter a valid email address."
+        },
+        "THANK_YOU_FOR_REGISTRATION_MESSAGE": {
+            "THANK_YOU_FOR_REGISTERING_HEADER_MESSAGE": "Thank you for registering with Pfizer!",
+            "THANK_YOU_FOR_REGISTERING_SUBHEADER_MESSAGE": "We have sent an email to %s with a verification link to activate your account. Once you have activated your account, you will have access to:"
+        },
+        "NEW_PASSWORD_ERROR_MESSAGE": {
+            "PASSWORD_REQUIRED": "Password is required.",
+            "PASSWORD_REQUIRED_CONFIRM": "Password is required",
+            "CURRENT_PASSWORD_REQUIRED": "Current Password is required",
+            "INCORRECT_CURRENT_PASSWORD": "Incorrect password. Please try again."
+        },
+        "PASSWORD_VALIDATION_ERROR_MESSAGE": {
+            "BETWEEN_8_AND_20_CHARS": "Between 8 and 20 characters",
+            "CONTAINS_NUMBER": "Contains a number",
+            "DOESNT_CONTAIN_FNAME_LNAME_EMAIL": "Must not contain first or last name or email address",
+            "CONTAINS_UPPERCASE_LETTER": "Contains an uppercase character",
+            "CONTAINS_LOWERCASE_LETTER": "Contains a lowercase letter"
+        },
+        "ERROR_MESSAGE": {
+            "TOO_MANY_FAILED_LOGIN_ATTEMPTS": "Too many failed login attempts. Please try again later.",
+            "EMAIL_ALREADY_REGISTERED": "That email is already registered, please log in instead.",
+            "EMAIL_VALIDATION_MESSAGE": "Please enter a valid email address.",
+            "INVALID_CREDENTIALS": "Username and password do not match. Please try again.",
+            "PASSWORD_REQUIRED": "Password is required.",
+            "SPECIALITY_ONE_REQUIRED": "Specialty is required.",
+            "PROFESSION_REQUIRED": "Profession is required.",
+            "POSTCODE_REQUIRED": "Postcode is required",
+            "ENTER_VALID_POSTCODE": "Please enter a valid Post Code",
+            "LICENSE_REQUIRED": "License number is required.",
+            "LICENSE_LESS_THAN_SEVEN_CHARS_MESSAGE": "Please enter a valid License Number",
+            "LICENSE_NUMBER_CANNOT_BE_MORE_THAN_TWELVE_CHARACTERS": "Please enter a valid License Number",
+            "EMAIL_NOT_VALID_ERROR": "Please enter a valid email address."
+        },
+        "PRIVACY_POLICY_PAGE_TITLE": "Pfizer Privacy Notice",
+        "BASE_HOME_PAGE_TITLE": "Home | PfizerPro UK",
+        "PRIVACY_COOKIE_POLICY_TITLE": "United Kingdom | Pfizer Privacy Notice",
+        "TOS_PAGE_TITLE": "Terms of Use | Pfizer for Professionals",
+        "STEP_3": {
+            "PASSWORD_FNAME_LNAME_EMAIL_VALIDATION": "Does not contain first name, last name or email address"
+        },
+        "PROFILE": {
+            "PERSONAL": {
+                "EMAIL_LABEL": "Email Address",
+                "TITLE_LABEL": "Title",
+                "NAME_LABEL": "Name",
+                "CONSENT_MSG": "I consent to receiving healthcare, medical and scientific related information, by email or other electronic means, which Pfizer believes may be of value to me, relevant to my work and tailored to my professional profile and interests. This may include promotional information on products promoted by Pfizer",
+                "DELETE_LABEL": "Delete account"
+            },
+            "EDIT_PERSONAL": {
+                "TITLE": "Personal Information",
+                "TITLE_VALIDATION": "Title is required",
+                "FIRST_NAME_VALIDATION": "First name is required",
+                "SECOND_NAME_VALIDATION": "Last name is required.",
+                "EMAIL_VALIDATION_EMPTY": "Email address is required.",
+                "EMAIL_VALIDATION_FORMAT": "Please enter a valid email address."
+            },
+            "PROFESSIONAL": {
+                "PROFESSION_LABEL": "Profession",
+                "SPECIALTY_LABEL": "Specialty",
+                "SECOND_SPECIALTY_LABEL": "Second Specialty",
+                "REGISTRATION_LABEL": "Registration / LSP Number",
+                "POSTCODE_LABEL": "Workplace Postcode",
+                "MAILINGADDRESS_LABEL": "None"
+            },
+            "EDIT_PROFESSIONAL": {
+                "TITLE": "Professional Information",
+                "PROFESSION_VALIDATION": "Profession is required.",
+                "SPECIALTY_VALIDATION": "Specialty is required.",
+                "REGISTRATION_VALIDATION": "Registration/LSP number is required",
+                "REGISTRATION_FORMAT_VALIDATION": "Please enter a valid License Number",
+                "POSTCODE_VALIDATION": "Postcode is required",
+                "POSTCODE_FORMAT_VALIDATION": "Please enter a valid Post Code"
+            },
+            "PREFERENCES": {
+                "PREFERENCES_LABEL": "Preferred Therapy Areas",
+                "EDIT_BUTTON": "Edit preferences"
+            },
+            "EDIT_PREFERENCES": {
+                "TITLE": "Edit Preferences"
+            },
+            "PASSWORD": {
+                "PASSWORD_LABEL": "Password"
+            },
+            "EDIT_PASSWORD": {
+                "TITLE": "Choose a new password"
+            },
+            "EDIT_BUTTON": "Edit"
+        },
+        "HOME_PAGE_TITLE": "Home | PfizerPro UK"
+    },
+    "sa-br-prod": {
+        "URL": "https://pfizerpro.com.br/",
+        "BUTTON": {
+            "LOGIN": "Entrar"
+        },
+        "FORGOT_PASSWORD_MESSAGE": {
+            "SUCCESSFUL_PASSWORD_EMAIL_SENT_TEXT": "Vamos lhe enviar um e-mail com um link para redefinir sua senha.",
+            "NO_ACCOUNT_FOUND_ERROR": "Insira um endereço de e-mail válido"
+        },
+        "THANK_YOU_FOR_REGISTRATION_MESSAGE": {
+            "THANK_YOU_FOR_REGISTERING_HEADER_MESSAGE": "Thank you for registering with Pfizer!",
+            "THANK_YOU_FOR_REGISTERING_SUBHEADER_MESSAGE": "We have sent an email to %s with a verification link to activate your account. Once you have activated your account, you will have access to:"
+        },
+        "NEW_PASSWORD_ERROR_MESSAGE": {
+            "PASSWORD_REQUIRED": "A senha atual é necessária",
+            "PASSWORD_REQUIRED_CONFIRM": "A senha atual é necessária",
+            "CURRENT_PASSWORD_REQUIRED": "A senha atual é necessária",
+            "INCORRECT_CURRENT_PASSWORD": "Incorrect password. Please try again."
+        },
+        "PASSWORD_VALIDATION_ERROR_MESSAGE": {
+            "BETWEEN_8_AND_20_CHARS": "Minimo de 8 caracteres",
+            "CONTAINS_NUMBER": "Contendo número",
+            "DOESNT_CONTAIN_FNAME_LNAME_EMAIL": "Não contém nome, sobrenome ou endereço de email",
+            "CONTAINS_UPPERCASE_LETTER": "Contendo letra maiúscula",
+            "CONTAINS_LOWERCASE_LETTER": "Contendo letra minúscula"
+        },
+        "ERROR_MESSAGE": {
+            "TOO_MANY_FAILED_LOGIN_ATTEMPTS": "Muitas tentativas de login com falha. Por favor, tente novamente mais tarde.",
+            "EMAIL_ALREADY_REGISTERED": "Esse e-mail já está cadastrado. Faça login em vez disso.",
+            "EMAIL_VALIDATION_MESSAGE": "O sobrenome é necessário.",
+            "INVALID_CREDENTIALS": "Usuário e senha não correspondem. Por favor, tente novamente.",
+            "PASSWORD_REQUIRED": "A senha é necessária.",
+            "SPECIALITY_ONE_REQUIRED": "Specialty is required.",
+            "PROFESSION_REQUIRED": "Profession is required.",
+            "POSTCODE_REQUIRED": "Postcode is required",
+            "ENTER_VALID_POSTCODE": "Please enter a valid Post Code",
+            "LICENSE_REQUIRED": "License number is required.",
+            "LICENSE_LESS_THAN_SEVEN_CHARS_MESSAGE": "Please enter a valid License Number",
+            "LICENSE_NUMBER_CANNOT_BE_MORE_THAN_TWELVE_CHARACTERS": "Please enter a valid License Number",
+            "EMAIL_NOT_VALID_ERROR": "Insira um endereço de e-mail válido"
+        },
+        "PRIVACY_POLICY_PAGE_TITLE": "Pfizer Privacy Notice",
+        "BASE_HOME_PAGE_TITLE": "Home | Pfizer para Profissionais",
+        "PRIVACY_COOKIE_POLICY_TITLE": "United Kingdom | Pfizer Privacy Notice",
+        "TOS_PAGE_TITLE": "Terms of Use | Pfizer for Professionals",
+        "STEP_3": {
+            "PASSWORD_FNAME_LNAME_EMAIL_VALIDATION": "Does not contain first name, last name or email address"
+        },
+        "PROFILE": {
+            "PERSONAL": {
+                "EMAIL_LABEL": "Endereço de e-mail",
+                "TITLE_LABEL": "Título",
+                "NAME_LABEL": "Nome",
+                "CONSENT_MSG": "Desejo receber por e-mail informações sobre produtos, marcas e serviços oferecidos pela Pfizer e suas empresas coligadas",
+                "DELETE_LABEL": "None"
+            },
+            "EDIT_PERSONAL": {
+                "TITLE": "Informações Pessoais",
+                "TITLE_VALIDATION": "",
+                "FIRST_NAME_VALIDATION": "O primeiro nome é necessário.",
+                "SECOND_NAME_VALIDATION": "O sobrenome é necessário.",
+                "EMAIL_VALIDATION_EMPTY": "O endereço de e-mail é necessário.",
+                "EMAIL_VALIDATION_FORMAT": "Insira um endereço de e-mail válido"
+            },
+            "PROFESSIONAL": {
+                "PROFESSION_LABEL": "Profissão",
+                "SPECIALTY_LABEL": "Especialidade",
+                "SECOND_SPECIALTY_LABEL": "None",
+                "REGISTRATION_LABEL": "Registro profissional ( p.ex. CRM)",
+                "POSTCODE_LABEL": "None",
+                "MAILINGADDRESS_LABEL": "Estado de Registro"
+            },
+            "EDIT_PROFESSIONAL": {
+                "TITLE": "Informações Profissionais",
+                "PROFESSION_VALIDATION": "Uma profissão é necessária.",
+                "SPECIALTY_VALIDATION": "Uma especialidade é necessária.",
+                "REGISTRATION_VALIDATION": "O Estado de Registro é necessário",
+                "REGISTRATION_FORMAT_VALIDATION": "Please enter a valid License Number",
+                "POSTCODE_VALIDATION": "O número da PSL/registro é necessário",
+                "POSTCODE_FORMAT_VALIDATION": "Insira um número de carteira de habilitação válido"
+            },
+            "PREFERENCES": {
+                "PREFERENCES_LABEL": "Areas terapéuticas de su interés",
+                "EDIT_BUTTON" : "Editar"
+            },
+            "EDIT_PREFERENCES": {
+                "TITLE": "Preferências"
+            },
+            "PASSWORD": {
+                "PASSWORD_LABEL": "Senha"
+            },
+            "EDIT_PASSWORD": {
+                "TITLE": "Escolha uma nova senha"
+            },
+            "EDIT_BUTTON": "Editar"
+        },
+        "HOME_PAGE_TITLE": "Home | Pfizer para Profissionais"
+    },
+    "eu-uk-stg": {
+        "URL": "https://grv5sandbox01-auth0-oidc.site.pfizer/",
+        "BUTTON": {
+            "LOGIN": "Log in"
+        },
+        "FORGOT_PASSWORD_MESSAGE": {
+            "SUCCESSFUL_PASSWORD_EMAIL_SENT_TEXT": "We can confirm your email address is linked to an account at PfizerPro and have sent an email with instructions to reset your password.",
+            "NO_ACCOUNT_FOUND_ERROR": "Please enter a valid email address."
+        },
+        "THANK_YOU_FOR_REGISTRATION_MESSAGE": {
+            "THANK_YOU_FOR_REGISTERING_HEADER_MESSAGE": "Thank you for registering with Pfizer!",
+            "THANK_YOU_FOR_REGISTERING_SUBHEADER_MESSAGE": "We have sent an email to %s with a verification link to activate your account. Once you have activated your account, you will have access to:"
+        },
+        "NEW_PASSWORD_ERROR_MESSAGE": {
+            "PASSWORD_REQUIRED": "Password is required.",
+            "PASSWORD_REQUIRED_CONFIRM": "Password is required",
+            "CURRENT_PASSWORD_REQUIRED": "Current Password is required",
+            "INCORRECT_CURRENT_PASSWORD": "Incorrect password. Please try again."
+        },
+        "PASSWORD_VALIDATION_ERROR_MESSAGE": {
+            "BETWEEN_8_AND_20_CHARS": "Between 8 and 20 characters",
+            "CONTAINS_NUMBER": "Contains a number",
+            "DOESNT_CONTAIN_FNAME_LNAME_EMAIL": "Must not contain first or last name or email address",
+            "CONTAINS_UPPERCASE_LETTER": "Contains an uppercase character",
+            "CONTAINS_LOWERCASE_LETTER": "Contains a lowercase letter"
+        },
+        "ERROR_MESSAGE": {
+            "TOO_MANY_FAILED_LOGIN_ATTEMPTS": "Too many failed login attempts. Please try again later.",
+            "EMAIL_ALREADY_REGISTERED": "That email is already registered, please log in instead.",
+            "EMAIL_VALIDATION_MESSAGE": "Please enter a valid email address.",
+            "INVALID_CREDENTIALS": "Username and password do not match. Please try again.",
+            "PASSWORD_REQUIRED": "Password is required.",
+            "SPECIALITY_ONE_REQUIRED": "Specialty is required.",
+            "PROFESSION_REQUIRED": "Profession is required.",
+            "POSTCODE_REQUIRED": "Postcode is required",
+            "ENTER_VALID_POSTCODE": "Please enter a valid Post Code",
+            "LICENSE_REQUIRED": "License number is required.",
+            "LICENSE_LESS_THAN_SEVEN_CHARS_MESSAGE": "Please enter a valid License Number",
+            "LICENSE_NUMBER_CANNOT_BE_MORE_THAN_TWELVE_CHARACTERS": "Please enter a valid License Number",
+            "EMAIL_NOT_VALID_ERROR": "Please enter a valid email address."
+        },
+        "PRIVACY_POLICY_PAGE_TITLE": "Pfizer Privacy Notice",
+        "BASE_HOME_PAGE_TITLE": "Home | PfizerPro UK",
+        "PRIVACY_COOKIE_POLICY_TITLE": "United Kingdom | Pfizer Privacy Notice",
+        "TOS_PAGE_TITLE": "Terms of Use | Pfizer for Professionals",
+        "STEP_3": {
+            "PASSWORD_FNAME_LNAME_EMAIL_VALIDATION": "Does not contain first name, last name or email address"
+        },
+        "PROFILE": {
+            "PERSONAL": {
+                "EMAIL_LABEL": "Email Address",
+                "TITLE_LABEL": "Title",
+                "NAME_LABEL": "Name",
+                "CONSENT_MSG": "I consent to receiving healthcare, medical and scientific related information, by email or other electronic means, which Pfizer believes may be of value to me, relevant to my work and tailored to my professional profile and interests. This may include promotional information on products promoted by Pfizer",
+                "DELETE_LABEL": "Delete account"
+            },
+            "EDIT_PERSONAL": {
+                "TITLE": "Personal Information",
+                "TITLE_VALIDATION": "Title is required",
+                "FIRST_NAME_VALIDATION": "First name is required",
+                "SECOND_NAME_VALIDATION": "Last name is required.",
+                "EMAIL_VALIDATION_EMPTY": "Email address is required.",
+                "EMAIL_VALIDATION_FORMAT": "Please enter a valid email address."
+            },
+            "PROFESSIONAL": {
+                "PROFESSION_LABEL": "Profession",
+                "SPECIALTY_LABEL": "Specialty",
+                "SECOND_SPECIALTY_LABEL": "Second Specialty",
+                "REGISTRATION_LABEL": "Registration / LSP Number",
+                "POSTCODE_LABEL": "Workplace Postcode",
+                "MAILINGADDRESS_LABEL": "None"
+            },
+            "EDIT_PROFESSIONAL": {
+                "TITLE": "Professional Information",
+                "PROFESSION_VALIDATION": "Profession is required.",
+                "SPECIALTY_VALIDATION": "Specialty is required.",
+                "REGISTRATION_VALIDATION": "Registration/LSP number is required",
+                "REGISTRATION_FORMAT_VALIDATION": "Please enter a valid License Number",
+                "POSTCODE_VALIDATION": "Postcode is required",
+                "POSTCODE_FORMAT_VALIDATION": "Please enter a valid Post Code"
+            },
+            "PREFERENCES": {
+                "PREFERENCES_LABEL": "Preferred Therapy Areas",
+                "EDIT_BUTTON": "Edit preferences"
+            },
+            "EDIT_PREFERENCES": {
+                "TITLE": "Edit Preferences"
+            },
+            "PASSWORD": {
+                "PASSWORD_LABEL": "Password"
+            },
+            "EDIT_PASSWORD": {
+                "TITLE": "Choose a new password"
+            },
+            "EDIT_BUTTON": "Edit"
+        },
+        "HOME_PAGE_TITLE": "Home | PfizerPro UK"
+    },
+    "us-us-stg": {
+        "URL": "https://pfizeresxalkori-preview.site.pfizer/",
+        "BUTTON": {
+            "LOGIN": "Log in"
+        },
+        "FORGOT_PASSWORD_MESSAGE": {
+            "SUCCESSFUL_PASSWORD_EMAIL_SENT_TEXT": "We’ve found your account, and sent you an email with instructions to reset your password.",
+            "NO_ACCOUNT_FOUND_ERROR": "Please enter a valid email address."
+        },
+        "THANK_YOU_FOR_REGISTRATION_MESSAGE": {
+            "THANK_YOU_FOR_REGISTERING_HEADER_MESSAGE": "Thank you for registering with Pfizer!",
+            "THANK_YOU_FOR_REGISTERING_SUBHEADER_MESSAGE": "We have sent an email to %s with a verification link to activate your account. Once you have activated your account, you will have access to:"
+        },
+        "NEW_PASSWORD_ERROR_MESSAGE": {
+            "PASSWORD_REQUIRED": "Password is required",
+            "PASSWORD_REQUIRED_CONFIRM": "Password is required",
+            "CURRENT_PASSWORD_REQUIRED": "Current Password is required",
+            "INCORRECT_CURRENT_PASSWORD": "Incorrect password. Please try again."
+        },
+        "PASSWORD_VALIDATION_ERROR_MESSAGE": {
+            "BETWEEN_8_AND_20_CHARS": "Between 8 and 20 characters",
+            "CONTAINS_NUMBER": "Contains a number",
+            "DOESNT_CONTAIN_FNAME_LNAME_EMAIL": "Must not contain first or last name or email address",
+            "CONTAINS_UPPERCASE_LETTER": "Contains an uppercase character",
+            "CONTAINS_LOWERCASE_LETTER": "Contains a lowercase letter"
+        },
+        "ERROR_MESSAGE": {
+            "TOO_MANY_FAILED_LOGIN_ATTEMPTS": "Too many failed login attempts. Please try again later.",
+            "EMAIL_ALREADY_REGISTERED": "That email is already registered, please log in instead.",
+            "EMAIL_VALIDATION_MESSAGE": "Please enter a valid email address.",
+            "INVALID_CREDENTIALS": "Username and password do not match. Please try again.",
+            "PASSWORD_REQUIRED": "Password is required",
+            "SPECIALITY_ONE_REQUIRED": "Specialty is required.",
+            "PROFESSION_REQUIRED": "Profession is required.",
+            "POSTCODE_REQUIRED": "Postcode is required",
+            "ENTER_VALID_POSTCODE": "Please enter a valid Post Code",
+            "LICENSE_REQUIRED": "License number is required.",
+            "LICENSE_LESS_THAN_SEVEN_CHARS_MESSAGE": "Please enter a valid License Number",
+            "LICENSE_NUMBER_CANNOT_BE_MORE_THAN_TWELVE_CHARACTERS": "Please enter a valid License Number",
+            "EMAIL_NOT_VALID_ERROR": "Please enter a valid email address."
+        },
+        "PRIVACY_POLICY_PAGE_TITLE": "Pfizer Privacy Notice",
+        "BASE_HOME_PAGE_TITLE": "Home | PfizerPro UK",
+        "PRIVACY_COOKIE_POLICY_TITLE": "United Kingdom | Pfizer Privacy Notice",
+        "TOS_PAGE_TITLE": "Terms of Use | Pfizer for Professionals",
+        "STEP_3": {
+            "PASSWORD_FNAME_LNAME_EMAIL_VALIDATION": "Does not contain first name, last name or email address"
+        },
+        "PROFILE": {
+            "PERSONAL": {
+                "EMAIL_LABEL": "Email Address",
+                "TITLE_LABEL": "Title",
+                "NAME_LABEL": "Name",
+                "CONSENT_MSG": "I consent to receiving healthcare, medical and scientific related information, by email or other electronic means, which Pfizer believes may be of value to me, relevant to my work and tailored to my professional profile and interests. This may include promotional information on products promoted by Pfizer",
+                "DELETE_LABEL": "Delete account"
+            },
+            "EDIT_PERSONAL": {
+                "TITLE": "Personal Information",
+                "TITLE_VALIDATION": "Title is required",
+                "FIRST_NAME_VALIDATION": "First name is required",
+                "SECOND_NAME_VALIDATION": "Last name is required.",
+                "EMAIL_VALIDATION_EMPTY": "Email address is required.",
+                "EMAIL_VALIDATION_FORMAT": "Please enter a valid email address."
+            },
+            "PROFESSIONAL": {
+                "PROFESSION_LABEL": "Profession",
+                "SPECIALTY_LABEL": "Specialty",
+                "SECOND_SPECIALTY_LABEL": "Second Specialty",
+                "REGISTRATION_LABEL": "Registration / LSP Number",
+                "POSTCODE_LABEL": "Workplace Postcode",
+                "MAILINGADDRESS_LABEL": "None"
+            },
+            "EDIT_PROFESSIONAL": {
+                "TITLE": "Professional Information",
+                "PROFESSION_VALIDATION": "Profession is required.",
+                "SPECIALTY_VALIDATION": "Specialty is required.",
+                "REGISTRATION_VALIDATION": "Registration/LSP number is required",
+                "REGISTRATION_FORMAT_VALIDATION": "Please enter a valid License Number",
+                "POSTCODE_VALIDATION": "Postcode is required",
+                "POSTCODE_FORMAT_VALIDATION": "Please enter a valid Post Code"
+            },
+            "PREFERENCES": {
+                "PREFERENCES_LABEL": "Preferred Therapy Areas",
+                "EDIT_BUTTON": "Edit preferences"
+            },
+            "EDIT_PREFERENCES": {
+                "TITLE": "Edit Preferences"
+            },
+            "PASSWORD": {
+                "PASSWORD_LABEL": "Password"
+            },
+            "EDIT_PASSWORD": {
+                "TITLE": "Choose a new password"
+            },
+            "EDIT_BUTTON": "Edit"
+        },
+        "HOME_PAGE_TITLE": "Home | PfizerPro UK"
+    }
+}

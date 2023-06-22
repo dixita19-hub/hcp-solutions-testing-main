@@ -1,0 +1,21 @@
+{
+    "capabilities": {
+        "browserstack": "True",
+        "browserName": "Safari",
+        "browserVersion": "latest",
+        "acceptSslCerts": true,
+        "bstack:options": {
+            "os": "OS X",
+            "osVersion": "Ventura",
+            "projectName": "GRV-Project",
+            "local": true,
+            "debug": true,
+            "timezone": "UTC",
+            "networkLogs" : true,
+            "safari": {
+                "enablePopups": true
+            }
+        }
+    }
+}
+

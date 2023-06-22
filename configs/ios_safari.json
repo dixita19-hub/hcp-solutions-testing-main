@@ -1,0 +1,23 @@
+{
+    "capabilities": {
+        "browserstack": "True",
+        "browserName": "Safari",
+        "browserVersion": "latest",
+        "acceptSslCerts": true,
+        "bstack:options": {
+            "deviceName": "iPhone 14 Pro Max",
+            "osVersion": "16",
+            "projectName": "Galaxy",
+            "realMobile" : "true",
+            "local": true,
+            "debug": true,
+            "timezone": "UTC",
+            "networkLogs" : true,
+            "safari": {
+                "enablePopups": true
+            }
+        }
+    }
+}
+
+

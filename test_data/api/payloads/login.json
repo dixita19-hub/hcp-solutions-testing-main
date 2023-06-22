@@ -1,0 +1,7 @@
+{
+      "context": "login",
+      "payload": {
+        "traditionalSignIn_emailAddress": "valid-email@pfizer.com",
+            "traditionalSignIn_password": "Grv@123456"
+      }
+}

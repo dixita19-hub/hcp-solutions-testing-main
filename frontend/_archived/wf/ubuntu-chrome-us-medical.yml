@@ -1,0 +1,84 @@
+name: Ubuntu Chrome US Medical
+
+env:
+    TAGS: "medical"
+    BASE_URL: "https://galaxyqa03-preview.site.pfizer"
+    PROXY_PORT: "9090"
+    AUT1US: ${{ secrets.AUT1US }}
+    AUT2US: ${{ secrets.AUT2US }}
+    AUT1UK: ${{ secrets.AUT1UK }}
+    AUT2UK: ${{ secrets.AUT2UK }}
+    AUT3US: ${{ secrets.AUT3US }}
+    AUT4US: ${{ secrets.AUT4US }}
+    AUTOPASS1: ${{ secrets.AUTOPASS1 }}
+    AUTOPASS2: ${{ secrets.AUTOPASS2 }}
+
+on:
+    schedule:
+        - cron: '0 19 * * *'
+    pull_request:
+        branches:
+            - 'Galaxy_AUT'
+    push:
+        branches:
+            - 'Galaxy_AUT'
+            - 'main'
+    workflow_dispatch:
+        inputs:
+            tags:
+                description: 'Gherkin Tags'
+                required: true
+                default: 'medical'
+            baseurl:
+                description: 'Base URL'
+                required: true
+                default: 'https://galaxyqa03-preview.site.pfizer'
+
+jobs:
+    run-galaxy-regression-test-on-GH-local:
+        runs-on: ubuntu-latest
+
+        steps:
+
+            -   name: Setup Python
+                uses: actions/setup-python@v2.2.1
+                with:
+                    python-version: '3.9'
+
+            -   name: Setup and run mitmproxy
+                run: |
+                    pip install mitmproxy
+                    nohup mitmdump -p $PROXY_PORT -H "/cf-access-client-id/${{ secrets.CF_KEY_ID }}" -H "/cf-access-client-secret/${{ secrets.CF_KEY_SECRET }}" &
+
+            -   name: Check out code
+                uses: actions/checkout@v2
+
+            -   name: Setup dependencies
+                run: |
+                    sh install.sh
+
+            -   name: Run tests
+                run: |
+                    if [ "${{ inputs.tags || github.event.inputs.tags }}" != "" ]
+                    then
+                     TAGS="${{ inputs.tags || github.event.inputs.tags }}"
+                    fi
+
+                    if [ "${{ inputs.baseurl || github.event.inputs.baseurl }}" != "" ]
+                    then
+                     BASE_URL="${{ inputs.baseurl || github.event.inputs.baseurl }}"
+                    fi
+
+                    source $HOME/.bp-venv/bin/activate
+                    python -m pytest -n '3' --driver=Chrome --driver-path=./binaries/webdriver/chromedriver --capability headless True --proxy-url="127.0.0.1:$PROXY_PORT" --tags="$TAGS" --base-url=$BASE_URL --html=report.html --self-contained-html
+
+            -   name: Upload pytest test results
+                uses: actions/upload-artifact@v2
+                with:
+                    name: pytest-results
+                    path: |
+                        ./*.html
+                        ./output/
+                        ./assets/
+                if: ${{ always() }}
+
